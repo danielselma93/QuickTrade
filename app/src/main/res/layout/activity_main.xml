@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context="com.example.damir.quicktrade.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear usuario"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonMostrarUsuarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mostrar usuarios" />
+
+    <Button
+        android:id="@+id/buttonModificarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="modificar usuario" />
+
+    <Button
+        android:id="@+id/buttonProductoNuevo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dar de alta a un producto" />
+
+    <Button
+        android:id="@+id/buttonProductosPorUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="productos de cada usuario" />
+
+    <Button
+        android:id="@+id/buttonProductosPorCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Productos segun la categoria" />
+
+    <Button
+        android:id="@+id/buttonModificarBorrarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="modificar o borrar un producto" />
+
+</LinearLayout>

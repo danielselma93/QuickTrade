@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">QuickTrade</string>
+    <string name="nodoUsuarios">usuarios</string>
+    <string name="campoUsuario">usuario</string>
+    <string name="campoNombre">nombre</string>
+    <string name="campoApellidos">apellidos</string>
+    <string name="campoEmail">email</string>
+    <string name="campoDireccion">direccion</string>
+
+    <string name="nodoProductosConcatenarKey">productos_</string>
+    <string name="campoDescripcion">descripcion</string>
+    <string name="campoCategoria">categoria</string>
+    <string name="campoPrecio">precio</string>
+
+    <string name="nodoProductos">productos</string>
+    <string name="nodoCategoriaTecnologia">productosTecnologia</string>
+    <string name="nodoCategoriaCoches">productosCoches</string>
+    <string name="nodoCategoriaHogar">productosHogar</string>
+
+</resources>
